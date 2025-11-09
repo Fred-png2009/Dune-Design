@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "vercel-build": "chmod +x ./node_modules/.bin/vite && vite build"
     "dev": "vite",
     "build": "vite build"
   },
